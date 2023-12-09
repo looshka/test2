@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Форма регистрации</title>
+</head>
+
+<body>
+    <div class="container"> 
+        <h1>Форма регистрации</h1> <br>
+
+        <div class="images"> 
+        </div>
+    <br>
+        <form action="#" method="get">
+    
+            <fieldset>
+                <legend class="title">Персональная информация</legend> <br>
+                <label class="title2" for="username">Введите ваше имя</label>
+                <input type="text" name="username" placeholder="Ваше имя" id="username" required />
+        
+                <br>
+        
+                <label class="title2" for="email">Введите вашу почту</label>
+                <input type="email" name="email" placeholder="example@mail.ru" id="email">
+        
+                <br>
+                <label class="title2" for="tel">Введите ваш номер телефона</label>
+                <input type="tel" name="tel" placeholder="8-xxx-xxx-xxxx" id="tel" pattern="8-[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        
+            </fieldset>
+    <br>
+            <fieldset>
+                <legend class="title">Дополнительная информация</legend>
+                <br>
+    
+                <label class="title2" for="date">Введите вашу дату рождения</label>
+                
+                <input type="date" 
+                name="date" 
+                id="date" />
+        
+                <br>
+                
+                <label class="title2" for="avatar">Ваше фото</label>
+                <input type="file" 
+                name="avatar" 
+                id="avatar"
+                accept=".png" />
+        
+                <br>
+                <p class="title2">Ваш пол</p>
+                <label for="male">Мужской</label>
+                <input type="radio" name="gender" id="male">
+                <label for="female">Женский</label>
+                <input type="radio" name="gender" id="female">
+        
+                <br>
+                <p class="title2">Ваши хобби</p>
+                <label for="sushi">Спорт</label>
+                <input type="checkbox" name="gender" id="sport">
+                <label for="bur">Чтение</label>
+                <input type="checkbox" name="gender" id="read">
+                <label for="pp">Готовка</label>
+                <input type="checkbox" name="gender" id="cook">
+                <label for="pp">Дизайн</label>
+                <input type="checkbox" name="gender" id="design">
+                
+        
+    
+            </fieldset>
+    <br>
+    <fieldset>
+        <legend class="title">О себе</legend>
+        
+    
+        <textarea name="about" id="about" cols="50" rows="10"></textarea>
+    
+    
+    
+    
+    
+        </select>
+    </fieldset>
+     <br>
+    
+        
+           
+                <button class="button" type="submit">Отправить</button>
+                <button class="button1" type="reset">Очистить</button>
+    
+           
+    
+        </form>
+    
+    </div>
+
+</body>
+
+</html>

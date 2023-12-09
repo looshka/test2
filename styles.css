@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    background-color: #F6F6F6;
+    font-family: 'Yeseva One', serif;
+    font-weight: 400;
+    
+}
+.header {
+height: 100vh;
+width: 100vw;
+position: relative;
+display: flex;
+
+}
+.header video {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+}
+
+.content {
+    z-index: 1;
+    color: white;
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.4);
+
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+
+}
+
+.about {
+    display: flex;
+    gap: 30px;
+    margin-top: 30 px;
+    padding: 0 15px;
+    
+}
+
+.vk div {
+    background-color: blueviolet;
+    height: 16px;
+    width: 16px;
+
+}
+.about img {
+    width: 580px;
+    height: 380px;
+margin-top: 22px;
+margin-left: 5px;
+border-radius: 16px;
+}
+.text {
+    font-size: 20px;
+    
+} 
+
+.form {
+    font-size: 458x;
+    
+}
+
+
+
+.text2 {
+    font-size: 25px;
+margin-top: 22px;
+color: #3b3598;
+
+}
+
+.action {
+    font-size: 25px;
+    
+}
+
+
+.decoration {
+    background: url(icons8-vk.svg);
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    background-size: cover;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.decoration1 {
+    background: url(icons8-телеграмма-app.svg);
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    background-size: cover;
+    margin-right: 10px;
+    margin-top: 15px;
+  
+}
+
+.decoration2 {
+    background: url(icons8-youtube.svg);
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    background-size: cover;
+    margin-top: 14px;
+    
+}
+.images {
+    box-shadow: o o 15px #F6F6F6;
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+    border-radius: 24px;
+
+    background: url(corporate-management-strategy-solution-branding-concept.jpg) ;
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
+
+}
+.about {
+    display: flex;
+    
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    
+}
+.title {
+    font-size: 22px;
+    color: #3b3598;
+}
+.title2 {
+    font-size: 18px;
+    
+}
+.button {
+    background-color: #ffffff;
+    font-size: 20px;
+    
+}
+.button1 {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
